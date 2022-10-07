@@ -1,2 +1,2 @@
-# -CSS-
-A repository for CSS exercises 
+# ✨CSS✨
+A repository to storage CSS exercises.
