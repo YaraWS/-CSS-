@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 body {
   background-color:#f2f6ff;
@@ -104,44 +104,14 @@ button {
   display: flex;
   justify-content: space-around;
   font-size: 13px;
-  color: #a8a7a7;
-  font-weight: 500;
+  color: #bdbbbb;
+  font-weight: normal;
   /* border: 3px solid green; */
-
 }
 
-/*Not sure if the next 5 classes should be here */
-.length {
-   /* border: 2px solid blue;  */
-   flex-grow: 0;
-  padding-right: 33px; 
-}
-
-.time {
-   /* border: 2px solid red;  */
-   flex-grow: 1; 
-}
-
-.start {
-  /* border: 2px solid orange;  */
-  flex-grow: 1;
-  padding-left: 27px;
-}
-
-.first-row {
-  order: 0;
-  flex-grow: 0.5;
-  
-}
-.second-row {
-  order: 0;
-  flex-grow: 0.5;
-  padding-left: 20px;
-  
-} 
 
 /*Rows of the second container*/
-.f-line , .t-line {
+.colour-line {
   display: flex;
   justify-content: space-evenly;
   background-color:#e5e7f7;
@@ -151,7 +121,7 @@ button {
   /* border: 3px solid red;*/
 }
 
-.s-line , .forth-line {
+.white-line {
   display: flex;
   justify-content: space-evenly;
   background-color:white;
